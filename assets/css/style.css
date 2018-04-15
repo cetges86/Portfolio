@@ -21,7 +21,7 @@ border-radius:0px 0px 15px 15px;
   min-height: 90vh;
 }
 
-h1, h4 {
+h1, h3, h4 {
   color:teal;
 }
 
@@ -32,16 +32,20 @@ h1, h4 {
 }
 
 #headshot {
-  max-width: 80%;
+  max-width: 40%;
   border-radius:30%;
-  margin: 20px 0 15px 0;
+  margin: 20px 20px 15px 0;
+  float: left;
+}
+
+.clearfix {
+  overflow: auto;
 }
 
 #bioP {
   color: #fff;
-  opacity: 1;
   line-height: 2;
-  text-align: right;
+  text-align: left;
 } 
 
 .page-footer {
