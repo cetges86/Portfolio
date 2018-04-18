@@ -40,6 +40,10 @@ h1, h3, h4 {
   float: left;
 }
 
+hr {
+  opacity: .6;
+}
+
 .clearfix {
   overflow: auto;
 }
