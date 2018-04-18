@@ -41,6 +41,17 @@ $(document).ready(function () {
     }
         , { offset: '45%' });
 
+    $('#proj5').css('opacity', 0);
+    $('#proj5').waypoint(function () {
+        $('#proj5').addClass('fadeInLeft')
+    }
+        , { offset: '45%' });
+
+    $('#proj6').css('opacity', 0);
+    $('#proj6').waypoint(function () {
+        $('#proj6').addClass('fadeInRight')
+    }
+        , { offset: '45%' });
 
 
 })

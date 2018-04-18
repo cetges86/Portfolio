@@ -42,6 +42,7 @@ h1, h3, h4 {
 
 hr {
   opacity: .6;
+  margin-bottom: 5%;
 }
 
 .clearfix {
@@ -54,13 +55,16 @@ hr {
   text-align: left;
 } 
 
-.activator {
-  max-height: 300px;
-  overflow: auto;
-}
+
 
 .card .card-title {
-  font-size: 22px;
+  font-size: 18px;
+}
+
+.card-image {
+  overflow: hidden;
+  height: 250px;
+
 }
 
 .page-footer {
