@@ -25,6 +25,9 @@ border-radius:0px 0px 15px 15px;
 
 h1, h3, h4 {
   color:teal;
+  -webkit-text-fill-color: teal;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: white;
 }
 
 #bio {
@@ -55,8 +58,6 @@ hr {
   text-align: left;
 } 
 
-
-
 .card .card-title {
   font-size: 18px;
 }
@@ -69,4 +70,8 @@ hr {
 
 .page-footer {
   background-color:rgba(255,255,255,0.2);
+}
+
+form {
+  color: #fff;
 }
