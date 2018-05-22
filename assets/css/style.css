@@ -45,6 +45,7 @@ h1, h3, h4 {
   line-height: 2;
   text-align: left;
   padding: 10px;
+  font-size:15px;
 } 
 
 #tech {
@@ -57,7 +58,7 @@ h1, h3, h4 {
   font-size: 19px;
   color: teal;
   -webkit-text-fill-color: teal;
-  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-width: .2px;
   -webkit-text-stroke-color: white;
 }
 
@@ -65,7 +66,15 @@ h2 {
   padding-top:5%;
   color: teal;
   -webkit-text-fill-color: teal;
-  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-width: .4px;
+  -webkit-text-stroke-color: white;
+}
+
+#down-arrow {
+  margin-top: 10%;
+  color: teal;
+  -webkit-text-fill-color: teal;
+  -webkit-text-stroke-width: .4px;
   -webkit-text-stroke-color: white;
 }
 
@@ -107,4 +116,42 @@ hr {
 
 .btn{
   margin: 5%;
+}
+
+.btn-large {
+  margin-bottom: 3%;
+}
+
+.disabled {
+  background-color:#26a69a !important;
+  color:#fff !important;
+}
+
+@media screen and (max-width:992px){
+  
+  .left {
+    margin-left: 13%;
+  }
+
+  #headshot {
+    max-width: 60%;
+  }
+
+}
+
+@media screen and (max-width:480px){
+  .card, .card-panel {
+    margin-left:7% !important;
+  }
+
+  .contact-links {
+    font-size: 20px;
+    font-variant: small-caps;
+  }
+  
+  #headshot {
+    max-width: 100%;
+  }
+
+
 }
