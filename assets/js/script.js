@@ -91,13 +91,13 @@ $(document).ready(function () {
     $('#proj9').waypoint(function () {
         $('#proj9').addClass('fadeInUp')
     }
-        , { offset: '40%' });
+        , { offset: '50%' });
 
     $('#proj10').css('opacity', 0);
     $('#proj10').waypoint(function () {
         $('#proj10').addClass('fadeInUp')
     }
-        , { offset: '40%' });
+        , { offset: '50%' });
 
     
     $('.btn-large').waypoint(function () {
