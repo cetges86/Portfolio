@@ -99,6 +99,19 @@ $(document).ready(function () {
     }
         , { offset: '50%' });
 
+    $('#proj11').css('opacity', 0);
+    $('#proj11').waypoint(function () {
+        $('#proj11').addClass('fadeInUp')
+    }
+        , { offset: '50%' });
+
+    $('#proj12').css('opacity', 0);
+    $('#proj12').waypoint(function () {
+        $('#proj12').addClass('fadeInUp')
+
+    }
+        , { offset: '50%' });
+
     
     $('.btn-large').waypoint(function () {
         $('.btn-large').addClass('pulse')
