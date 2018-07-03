@@ -80,8 +80,9 @@ h2 {
 
 #headshot {
   max-width: 40%;
-  border-radius:30%;
-  margin: 20px 20px 15px 0;
+  min-height: 300px;
+  border-radius:10%;
+  margin: 35px 20px 15px 0;
   float: left;
 }
 
