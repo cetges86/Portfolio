@@ -39,7 +39,7 @@ $(document).ready(function () {
 
     $('.carousel').waypoint(function () {
         $('.carousel').addClass('fadeIn');
-        setInterval(advanceCarousel, 1000);
+        setInterval(advanceCarousel, 1500);
     }
         , { offset: '50%' });
 
