@@ -2,7 +2,6 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  /* background-image: url(../images/wool.png); */
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -12,8 +11,8 @@ main {
 
 #nav-logo {
   max-width: 200px;
-  margin-top:5%;
-  border-radius:4%;
+  margin-top: 5%;
+  border-radius: 4%;
 }
 
 #heading {
@@ -29,8 +28,6 @@ nav {
   background-color: rgba(0, 150, 136, 0.8);
 }
 
-
-
 #jumbotron {
   min-height: 90vh;
 }
@@ -40,6 +37,13 @@ nav {
   border-radius: 50%;
   max-width: 40%;
   border: teal 5px solid;
+}
+
+.circle-links {
+  border-radius: 50%;
+  width: 150px;
+  border: black 3px solid;
+  margin: 15% 20%;
 }
 
 h1, h3, h4 {
@@ -97,13 +101,12 @@ h2 {
   max-width: 80%;
   max-height: 75%;
   border-radius: 3%;
-  border:2px solid teal;
+  border: 2px solid teal;
   margin: 5%;
 }
 
 hr {
   opacity: .6;
- 
 }
 
 .clearfix {
@@ -142,12 +145,20 @@ hr {
   color: #fff !important;
 }
 
+.sidenav-overlay {
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 0;
+}
+
 @media screen and (max-width:992px) {
-  .left {
-    margin-left: 13%;
+  #nav-logo {
+    margin-left: 15%;
   }
   #headshot {
-    max-width: 60%;
+    max-width: 80%;
+  }
+  #bioP {
+    margin: 2%;
   }
 }
 
@@ -155,11 +166,18 @@ hr {
   .card, .card-panel {
     margin-left: 7% !important;
   }
-  .contact-links {
-    font-size: 20px;
-    font-variant: small-caps;
+  #bio-container {
+    display: block;
   }
   #headshot {
     max-width: 100%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  #bioP {
+    margin: 3%;
+  }
+  .circle-links {
+    margin: 10% 50%;
   }
 }
