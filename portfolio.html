@@ -15,38 +15,34 @@
 
 <body>
     <header>
-        <div class="container">
-            <!-- Primary Nav Bar -->
-            <nav>
-                <div class="nav-wrapper">
-                    <a href="index.html" class="brand-logo left">Chris Etges</a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <div class="navbar-fixed">
+                    <nav>
+                        <div class="nav-wrapper">
+                            <a href="index.html" class="brand-logo left">
+                                <img alt="coding cartoon" id="nav-logo" src="./assets/images/logo.png" /></a>
+                            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                                <i class="material-icons">menu</i>
+                            </a>
+                            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+        <!-- Sidebar on Mobile -->
+        <ul class="sidenav" id="mobile-demo">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
 
-            <!-- Sidebar on Mobile -->
-            <ul class="sidenav" id="mobile-demo">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
     </header>
 
     <main>
@@ -54,7 +50,7 @@
             <h3 class="center-align">Portfolio Projects</h3>
             <hr>
             <div class="row">
-                    <!-- Projects I've completed -->
+                <!-- Projects I've completed -->
 
                 <div id="proj1" class="card animated col s10 m5 l5">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -461,35 +457,15 @@
 
     </main>
 
-    <div class="container">
+
         <footer class="page-footer">
-            <!-- <div class="container">
-                <div class="row">
-                    <div class="col l6 s12">
-                        <h5 class="white-text">Links</h5>
-                    </div>
-                    <div class="col l4 offset-l2 s12">
-                        <ul>
-                            <li>
-                                <a class="grey-text text-lighten-3" href="https://github.com/cetges86">GitHub</a>
-                            </li>
-                            <li>
-                                <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/chrisetges/">LinkedIn</a>
-                            </li>
-                            <li>
-                                <a class="grey-text text-lighten-3" href="https://stackoverflow.com/users/story/8929426">Stack Overflow</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div> -->
             <div class="footer-copyright">
                 <div class="row">
                     © 2018 Christopher Etges
                 </div>
             </div>
         </footer>
-    </div>
+    
 
 
 

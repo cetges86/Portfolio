@@ -11,15 +11,18 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/animate.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Makr">LogoMakr.com</a> https://logomakr.com/60QjUW -->
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <!-- Primary Nav Bar -->
+
+        <!-- Primary Nav Bar -->
+        <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper">
-                    <a href="index.html" class="brand-logo left">Chris Etges</a>
+                    <a href="index.html" class="brand-logo left">
+                        <img alt="coding cartoon" id="nav-logo" src="./assets/images/logo.png" /></a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger">
                         <i class="material-icons">menu</i>
                     </a>
@@ -47,6 +50,7 @@
                 </li>
             </ul>
         </div>
+
     </header>
 
     <main>
@@ -55,101 +59,90 @@
             <!-- Jumbotron -->
             <div id="jumbotron" class="valign-wrapper">
                 <div class="row">
+                    <div class="center-align">
+                        <img class="img-circle z-depth-5" src="assets/images/fallchrissq.jpg" alt="headshot of Chris Etges">
+                    </div>
                     <div class="col s12 center-block">
                         <h1 class="animated flipInX center-align">Christopher Etges</h1>
                     </div>
                     <div class="col s12 center-block">
                         <h4 class="animated flipInX center-align">Full Stack Web Developer</h4>
                     </div>
-                    
                     <div class="center-align">
-                           <a href="#bio"><i id="down-arrow" class="large material-icons animated">arrow_downward</i></a>
+                            <i id="down-arrow" class="large material-icons animated">arrow_downward</i>
                     </div>
                 </div>
             </div>
         </div>
         <!--Bio-->
         <section id="bio">
-            <div class="row">
-                <div class="col s1 m2 l2"></div>
-                <div class="col s10 m8 l8">
-                    <img id="headshot" class="clearfix animated z-depth-5" src="assets/images/fallchrissq.jpg" alt="headshot of Chris Etges">
-                    <p id="bioP" class="animated">Hi, I'm Chris, and I am hard at work towards becoming a full time web-developer. I am
-                        currently enrolled in the full-stack web development program at the University of Denver. I started
-                        learning HTML and CSS through codeacademy, and continued with courses through the University of Michigan
-                        online (via Coursera) in Javascript and Responsive Design. I have since become a full-stack developer
-                        familiar with many popular libraries and frameworks, both front and back end. I've been interested
-                        in tech as a hobby for my entire life, and frequently mess around with beta programs, and custom
-                        ROM installs on my Android devices. I'm an avid gamer, and love photography and travel. You'll see
-                        a few of my website projects in my portfolio, and feel free to reach out to me for custom work or
-                        questions. Thanks!
-                    </p>
+            <div class="container">
+                <div class="row valign-wrapper">
+                    <div class="col s6 m6 l6">
+                        <img alt="coding cartoon" id="headshot" class="clearfix animated z-depth-4" src="./assets/images/headshot2.jpg" />
+                    </div>
+                    <div class="col s6 m6 l6">
+                        <p id="bioP" class="z-depth-4 animated">Hi, I'm Chris, full stack web-developer. I finished a bootcamp, more specifically a full-stack web
+                            development program at the University of Denver. I started learning HTML and CSS through codeacademy,
+                            and continued with courses through the University of Michigan online (via Coursera) in Javascript
+                            and Responsive Design. I have since become familiar with many popular libraries and frameworks,
+                            both front and back end. I've been interested in tech as a hobby for my entire life. I'm an avid
+                            gamer, and love photography and travel. You'll see a few of my website projects in my portfolio,
+                            and feel free to reach out to me for custom work or questions. Thanks!
+                        </p>
+                    </div>
                 </div>
-
             </div>
         </section>
 
         <section id="tech">
-                <div class="row">
-                    <h2 id="section-header" class="animated center-align">Tech I Love</h2>
-                    <div class="carousel animated">
-                        <a class="carousel-item">
-                            <img src="assets/images/jslogo.png">HTML5, CSS3, JS (ES6)</a>
-                        <a class="carousel-item">
-                            <img src="assets/images/jquery.png">jQuery</a>
-                        <a class="carousel-item">
-                            <img src="assets/images/materialize.png">Materialize CSS</a>
-                        <a class="carousel-item">
-                            <img src="assets/images/bootstrap.png">Bootstrap</a>
-                        <a class="carousel-item">
-                            <img src="assets/images/node_logo.png">node.js</a>
-                        <a class="carousel-item">
-                            <img src="assets/images/mysql.png">mySQL/Sequelize</a>
-                    </div>
+            <div class="row">
+                <h2 id="section-header" class="animated center-align">Tech I Use</h2>
+                <div class="carousel animated">
+                    <a class="carousel-item">
+                        <img src="assets/images/jslogo.png">HTML5, CSS3, JS (ES6)</a>
+                    <a class="carousel-item">
+                        <img src="assets/images/react.png">Reactjs</a>
+                    <a class="carousel-item">
+                        <img src="assets/images/mongodb-logo.png">mongoDB and Mongoose</a>
+                    <a class="carousel-item">
+                        <img src="assets/images/mysql.png">mySQL/Sequelize</a>
+                    <a class="carousel-item">
+                        <img src="assets/images/node_logo.png">node.js with Express</a>
+                    <a class="carousel-item">
+                        <img src="assets/images/jquery.png">jQuery</a>
+                    <a class="carousel-item">
+                        <img src="assets/images/materialize.png">Materialize CSS</a>
+                    <a class="carousel-item">
+                        <img src="assets/images/bootstrap.png">Bootstrap</a>
+                    <a class="carousel-item">
+                        <img src="assets/images/bulma.png">Bulma</a>
+
                 </div>
+            </div>
         </section>
 
         <section id="projects-link">
             <div class="container">
                 <div class="center-align">
-                    <a href="portfolio.html" class="waves-effect waves-light btn-large animated"><i class="material-icons right">dashboard</i>View My Projects</a>
+                    <a href="portfolio.html" class="waves-effect waves-light btn-large animated">
+                        <i class="material-icons right">dashboard</i>View My Projects</a>
                 </div>
-            
+
             </div>
         </section>
 
 
     </main>
 
-    <div class="container">
-        <footer class="page-footer">
-            <!-- <div class="container">
-                <div class="row">
-                    <div class="col l6 s12">
-                        <h5 class="white-text">Links</h5>
-                    </div>
-                    <div class="col l4 offset-l2 s12">
-                        <ul>
-                            <li>
-                                <a class="grey-text text-lighten-3" href="https://github.com/cetges86">GitHub</a>
-                            </li>
-                            <li>
-                                <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/chrisetges/">LinkedIn</a>
-                            </li>
-                            <li>
-                                <a class="grey-text text-lighten-3" href="https://stackoverflow.com/users/story/8929426">Stack Overflow</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div> -->
-            <div class="footer-copyright">
-                <div class="row">
-                    © 2018 Christopher Etges
-                </div>
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="row">
+                © 2018 Christopher Etges
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 
 
 

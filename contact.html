@@ -15,37 +15,37 @@
 
 <body>
     <header>
-        <div class="container">
+        
             <!-- Primary Nav Bar -->
-            <nav>
-                <div class="nav-wrapper">
-                    <a href="index.html" class="brand-logo left">Chris Etges</a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="portfolio.html">Portfolio</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <div class="navbar-fixed">
+                    <nav>
+                        <div class="nav-wrapper">
+                            <a href="index.html" class="brand-logo left">
+                                <img alt="coding cartoon" id="nav-logo" src="./assets/images/logo.png" /></a>
+                            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                                <i class="material-icons">menu</i>
+                            </a>
+                            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                                <li>
+                                    <a href="portfolio.html">Portfolio</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
 
-            <!-- Sidebar on Mobile -->
-            <ul class="sidenav" id="mobile-demo">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
+                <!-- Sidebar on Mobile -->
+                <ul class="sidenav" id="mobile-demo">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -56,11 +56,11 @@
             <h1 class="center-align">Contact Me</h1>
             <div class="row">
                 <form class="center-align col s12" action="mailto:c.etges86@gmail.com">
-                    <button class="btn waves-effect waves-light z-depth-4" type="submit" name="action">Email Me
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Email Me
                         <i class="material-icons left">email</i>
                     </button>
-                    
-                    <button class="btn waves-effect waves-light z-depth-4 disabled">Call Me - (303) 518 - 2933
+
+                    <button class="btn waves-effect waves-light disabled">Call Me - (303) 518 - 2933
                         <i class="material-icons left">local_phone</i>
                     </button>
                 </form>
@@ -98,25 +98,25 @@
                     </div>
                 </div>
                 <div class="col s11 m4 l4">
-                        <div class="card-panel z-depth-1">
-                            <div class="row valign-wrapper">
-                                <div class="col s4 m5 l5">
-                                    <img src="assets/images/facebook.png" alt="facebook logo" class="responsive-img circle">
-                                </div>
-                                <div class="col s8 m7 l7">
-                                    <span class="black-text">
-                                        <a class="contact-links" href="https://www.facebook.com/cetges">Follow Me on Facebook!</a>
-                                    </span>
-                                </div>
+                    <div class="card-panel z-depth-1">
+                        <div class="row valign-wrapper">
+                            <div class="col s4 m5 l5">
+                                <img src="assets/images/facebook.png" alt="facebook logo" class="responsive-img circle">
+                            </div>
+                            <div class="col s8 m7 l7">
+                                <span class="black-text">
+                                    <a class="contact-links" href="https://www.facebook.com/cetges">Follow Me on Facebook!</a>
+                                </span>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
 
     </main>
 
-    <div class="container">
+    
         <footer class="page-footer">
             <!-- <div class="container">
                     <div class="row">
@@ -144,7 +144,7 @@
                 </div>
             </div>
         </footer>
-    </div>
+    
 
 
 
