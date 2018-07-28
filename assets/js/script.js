@@ -4,6 +4,8 @@ $(document).ready(function () {
     $('.carousel').carousel();
 
 
+
+
     $('#headshot').css('opacity', 0);
     $('#bioP').css('opacity', 0);
     $('#section-header').css('opacity', 0);
@@ -31,8 +33,13 @@ $(document).ready(function () {
     }
         , { offset: '50%' });
 
+    advanceCarousel = () => {
+        $('.carousel').carousel('next');
+    }
+
     $('.carousel').waypoint(function () {
         $('.carousel').addClass('fadeIn');
+        setInterval(advanceCarousel, 1000);
     }
         , { offset: '50%' });
 
