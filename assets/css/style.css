@@ -13,6 +13,7 @@ main {
 #nav-logo {
   max-width: 200px;
   margin-top:5%;
+  border-radius:4%;
 }
 
 #heading {
@@ -102,7 +103,7 @@ h2 {
 
 hr {
   opacity: .6;
-  margin-bottom: 5%;
+ 
 }
 
 .clearfix {
