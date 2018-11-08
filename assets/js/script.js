@@ -44,7 +44,7 @@ $(document).ready(function () {
     }
         , { offset: '50%' });
     // for loop to run through all project cards
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < 19; i++) {
         $(`#proj${i}`).css('opacity', 0);
         $(`#proj${i}`).waypoint(function () {
             $(`#proj${i}`).addClass('fadeInUp')
