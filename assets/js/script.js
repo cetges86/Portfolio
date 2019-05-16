@@ -50,7 +50,7 @@ $(document).ready(function () {
             $(`#proj${i}`).addClass('fadeInUp')
             $(`#proj${i}`).css('opacity', 1);
         }
-            , { offset: '60%' });
+            , { offset: '75%' });
     }
 
     $('.btn-large').waypoint(function () {
