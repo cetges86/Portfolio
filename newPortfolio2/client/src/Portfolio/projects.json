@@ -20,7 +20,7 @@
     {
         "id":3,
         "title":"Yearbook",
-        "image":"./images/yearbook.png",
+        "image":"./images/yearbook-screenshot.png",
         "description":"Contact hub and learning center for developers graduating bootcamps",
         "tech":["React.js","Passport.js","Node.js","Express","Bulma CSS","Sass Compiler", "MongoDB/Mongoose Library"],
         "github_link":"https://github.com/cetges86/aviato-project-3",

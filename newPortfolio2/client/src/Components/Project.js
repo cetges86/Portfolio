@@ -6,18 +6,19 @@ const Project = (props) => {
         <img className="project-thumb" alt={props.title} src={props.image}></img>
         <h3>{props.title}</h3>
         <p>{props.description}</p>
+        <div className="grid-wrapper">
+
         <a rel="noopener noreferrer" target="_blank" href={props.github_link}>Github Link</a>
         <a rel="noopener noreferrer" target="_blank" href={props.live_link}>Project Link</a>
-        <ul> Tech Used:
-            
+        Tech Used:
+        <ul className="grid-wrapper"> 
             {console.log(props.tech)}
             {props.tech.map((tech) => 
-                <li>{tech}</li>
+                <li className="tech-list">{tech}</li>
             )
             }
-
-            
         </ul>
+        </div>
     </div>
     )
 }
