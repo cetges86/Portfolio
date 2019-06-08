@@ -3,6 +3,7 @@ import "../main.css";
 import Navbar from "../Navbar/Navbar";
 import Jumbotron from "../Components/Jumbotron";
 import Intro from "../Components/Intro";
+import Portfolio from '../Portfolio/Portfolio';
 
 
 const Main = () => {
@@ -11,13 +12,13 @@ const Main = () => {
             <div className="frost">
                 <Navbar />
                 <Jumbotron />
-                <div className="center">
-                    <i className="fas fa-angle-down"></i>
-                </div>
             </div>
-
+            <a className="center" href="#about"><i className="fas fa-angle-down"></i></a>
             <div>
                 <Intro />
+            </div>
+            <div>
+                <Portfolio />
             </div>
         </div>
     )
