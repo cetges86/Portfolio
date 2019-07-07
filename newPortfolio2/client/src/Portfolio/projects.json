@@ -13,7 +13,7 @@
         "title":"Kyle Etges Music",
         "image":"./images/kylesite.png",
         "description":"Personal website built for a jazz musician in TN. Check him out!",
-        "tech":["React.js","CSS Grid","Node.js","Express", "HTML5"],
+        "tech":["React.js","CSS Grid","Node.js","Express.js", "HTML5"],
         "github_link":"https://github.com/cetges86/kyle_etges",
         "live_link":"https://etgesmusic.com/"
     },
@@ -22,7 +22,7 @@
         "title":"Yearbook",
         "image":"./images/yearbook-screenshot.png",
         "description":"Contact hub and learning center for developers graduating bootcamps",
-        "tech":["React.js","Passport.js","Node.js","Express","Bulma CSS","Sass Compiler", "MongoDB/Mongoose Library"],
+        "tech":["React.js","Passport.js","Node.js","Express.js","Bulma CSS","Sass Compiler", "MongoDB/Mongoose Library"],
         "github_link":"https://github.com/cetges86/aviato-project-3",
         "live_link":"https://aviato-yearbook.herokuapp.com/"
     },

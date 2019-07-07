@@ -6,8 +6,8 @@ import projects from "./projects.json";
 const Portfolio = () => {
     return (
         <div id="projects" className="section-dark">
-            <h1 className="center">Portfolio</h1>
-            <div className="grid-wrapper">
+            <h1 className="center section-banner">Portfolio</h1>
+            <div className="wrapper">
             {projects.map(project => {
                 return <Project
                 key={project.id}
