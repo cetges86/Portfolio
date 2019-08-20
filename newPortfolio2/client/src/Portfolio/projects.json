@@ -21,7 +21,7 @@
         "id":3,
         "title":"Yearbook",
         "image":"./images/yearbook-screenshot.png",
-        "description":"Contact hub and learning center for developers graduating bootcamps",
+        "description":"Contact hub and learning center for developers graduating from coding bootcamps",
         "tech":["React.js","Passport.js","Node.js","Express.js","Bulma CSS","Sass Compiler", "MongoDB/Mongoose Library"],
         "github_link":"https://github.com/cetges86/aviato-project-3",
         "live_link":"https://aviato-yearbook.herokuapp.com/"
@@ -30,7 +30,7 @@
         "id":4,
         "title":"AARP Calculator",
         "image":"./images/aarp.png",
-        "description":"AARP Discount Calculation tool made for Vision Care Specialists",
+        "description":"AARP Discount Calculation tool made for optometry practice Vision Care Specialists",
         "tech":["jQuery","Materialize.css","Javascript", "HTML5/CSS3"],
         "github_link":"https://github.com/cetges86/aarp-calculator",
         "live_link":"https://vcs-aarp.netlify.com"

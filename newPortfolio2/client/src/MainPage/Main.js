@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import Jumbotron from "../Components/Jumbotron";
 import Intro from "../Components/Intro";
 import Portfolio from '../Portfolio/Portfolio';
+import Contact from "../Contact/Contact";
 
 
 const Main = () => {
@@ -17,9 +18,10 @@ const Main = () => {
             <div>
                 <Intro />
             </div>
-            <div>
                 <Portfolio />
-            </div>
+            
+                <Contact />
+            
         </div>
     )
 }

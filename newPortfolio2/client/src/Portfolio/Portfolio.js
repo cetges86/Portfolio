@@ -5,7 +5,7 @@ import projects from "./projects.json";
 
 const Portfolio = () => {
     return (
-        <div id="projects" className="section-dark">
+        <div id="projects">
             <h1 className="center section-banner">Portfolio</h1>
             <div className="wrapper">
             {projects.map(project => {

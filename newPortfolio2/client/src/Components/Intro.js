@@ -11,9 +11,9 @@ const Intro = () => {
         <div id="about" className="section-light grid-wrapper">
             <div>
             <h2 id="intro-banner">Hi, I'm Chris. Nice to meet you.</h2>
-            <p className="intro-paragraph">Ever since I finished my bootcamp nearly a year ago, I've been building functional, useful tools, clean, modern webpages with HTML, CSS, and React.js, and learning as many new skills as I can. I love to solve problems and build things from scratch.
+            <p className="intro-paragraph">Ever since I finished my bootcamp nearly a year ago, I've been building functional, useful tools, as well as clean, modern webpages with HTML, CSS, and React.js, and learning as many new skills as I can. I love to solve problems and build things from scratch.
             <br/><br />
-            Please check out my latest projects in the portfolio section and feel free to reach out to me for questions. Thanks</p>
+            Please check out my latest projects in the portfolio section and feel free to reach out to me for questions. Thanks!</p>
             </div>
             <div className="icon-grid">
                 <img className="tech-logo" alt="tech logo" src={react_logo}></img>
