@@ -195,7 +195,7 @@ a {
 .project-card {
     margin: 0rem .3rem 2rem .3rem;
     /* background-color: darkslategray; */
-    padding: 10%;
+    padding: 2% 10%;
     color: var(--light);
 }
 
@@ -203,9 +203,6 @@ a {
     background-color: rgba(0, 128, 128, .8);
     border-radius: 2%;
     padding: 2rem;
-    /* tweak border shadow */
-    border-bottom: 1px solid white;
-    box-shadow: 0 4px 2px -2px gray;
 }
 
 .project-thumb {
