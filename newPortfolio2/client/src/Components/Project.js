@@ -20,9 +20,8 @@ const Project = (props) => {
             <h4 className="tech-title">Tech Used:</h4>
             <br />
             <ul className="list-wrapper">
-                {console.log(props.tech)}
                 {props.tech.map((tech) =>
-                    <li className="tech-list">{tech}</li>
+                    <li key={tech.toString()} className="tech-list">{tech}</li>
                 )
                 }
             </ul>

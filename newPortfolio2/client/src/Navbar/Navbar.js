@@ -17,15 +17,15 @@ class Navbar extends Component {
         return (
             <nav className="navbar">
                 <div className="navbar-banner">
-                    <a className="link" href="#top"><h3 id="logo">CE</h3></a>
+                    <a className="link" href="/"><h3 id="logo">CE</h3></a>
                 </div>
                 <div id="myTopnav" className="navbar-links">
                     <a className="links-right" href="#about">About</a>
                     <a className="links-right" href="#projects">Projects</a>
                     <a className="links-right" href="#contact">Contact</a>
-                    <button className="bar-icon" onClick={this.toggleNavMenu}>
+                    <a className="bar-icon" onClick={this.toggleNavMenu}>
                         <i className="fa fa-bars"></i>
-                    </button>
+                    </a>
                 </div>
             </nav>
         )

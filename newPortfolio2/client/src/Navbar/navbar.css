@@ -21,8 +21,8 @@
 .navbar-links {
     display: grid;
     grid-column: 2/3;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: .5em;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: .6em;
     font-size: 1.2rem;
     overflow: hidden;
 }
@@ -92,10 +92,11 @@
     }
     .navbar-links a.bar-icon {
         align-self: center;
-        justify-self: end;
-        grid-column: 1/6;
+        justify-self: center;
+        grid-column: 1/4;
         display: block;
         font-size: 1.6rem;
+        margin-left:5.5rem;
     }
     .navbar-links.responsive {
         position: relative;
@@ -105,13 +106,16 @@
         background-color: rgba(255, 255, 255, 0.829);
         border-radius: 5px;
         margin-top:12%;
+        margin-right:15%;
+        height: fit-content;
+        
     }
     .navbar-links.responsive a.bar-icon {
         position: absolute;
         right: 10px;
         top: 8px;
     }
-    .navbar-links.responsive a {
+    .navbar-links.responsive a  {
         float: none;
         display: grid;
         color: black;

@@ -15,13 +15,13 @@ const Main = () => {
                 <Jumbotron />
             </div>
             <a className="center" href="#about"><i className="fas fa-angle-down"></i></a>
-            <div>
-                <Intro />
-            </div>
-                <Portfolio />
-            
-                <Contact />
-            
+
+            <Intro />
+
+            <Portfolio />
+
+            <Contact />
+
         </div>
     )
 }
