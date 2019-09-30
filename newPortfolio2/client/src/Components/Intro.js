@@ -24,7 +24,7 @@ const Intro = () => {
                 <img className="tech-logo" alt="tech logo" src={mongodb_logo}></img>
             </div>
             <div>
-                <ul className="services-list"> <h3>Services I Can Provide:</h3>
+                <ul className="services-list"> <h3>Services I Provide:</h3><br/>
                     <li>Dynamic Single Page and Multi-page HTML/CSS webpages</li>
                     <li>Full-stack Javascript Applications</li>
                     <li>Multiple Live Updating Components</li>
