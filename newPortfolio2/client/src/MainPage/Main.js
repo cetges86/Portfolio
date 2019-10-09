@@ -10,7 +10,7 @@ import { Link } from "react-scroll";
 
 const Main = () => {
     return (
-        <div className="wrapper" id="top">
+        <div className="wrapper">
             <div className="frost">
                 <Navbar />
                 <Jumbotron />

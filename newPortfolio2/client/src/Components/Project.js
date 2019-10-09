@@ -12,7 +12,7 @@ const Project = (props) => {
             <br />
             <p className="project-desc">{props.description}</p>
             <br />
-            <div className="col-3-wrapper">
+            <div className="col-3-wrapper" id="mobile-grid">
                 <a className="project-links" rel="noopener noreferrer" target="_blank" href={props.github_link}>Github Link</a>
                 <h4 className="tech-title">Tech Used:</h4>
                 <a className="project-links" rel="noopener noreferrer" target="_blank" href={props.live_link}>Project Link</a>
