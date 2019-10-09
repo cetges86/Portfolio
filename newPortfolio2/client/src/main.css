@@ -118,6 +118,10 @@ a {
     font-size: 3rem;
 }
 
+#jumbotron-arrow {
+    z-index:99;
+}
+
 .frost {
     background: inherit;
     width: 100%;
@@ -189,6 +193,12 @@ a {
 
 /* Portfolio */
 
+#projects, #contact {
+    background-image:url("/images/wood-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .section-banner {
     padding: 10px;
     letter-spacing: 3px;
@@ -199,15 +209,14 @@ a {
 
 .project-card {
     margin: 0rem .3rem 2rem .3rem;
-    /* background-color: darkslategray; */
-    padding: 2% 10%;
-    color: var(--light);
+    height:800px;
 }
 
 .card-content {
-    background-color: rgba(0, 128, 128, .8);
-    border-radius: 2%;
     padding: 2rem;
+    height:725px;
+    border:2px solid rgba(183, 187, 187, 0.7);
+    border-radius:5px;
 }
 
 .project-thumb {
@@ -220,14 +229,21 @@ a {
 
 .list-wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: .5rem;
     justify-items: center;
+    padding:15px;
+    border-radius: 5px;
+    background-color:rgba(123, 207, 203, 0.7);
 }
 
 .tech-title {
-    margin-left:15%;
+    margin-bottom: 5%;
+    display:inline-block;
     text-decoration: underline;
+    background-color:rgba(123, 207, 203, 0.7);
+    padding:15px;
+    border-radius: 5px;
 }
 
 .tech-list {
@@ -239,7 +255,8 @@ a {
 
 .project-title {
     color: white;
-    /* background-color:var(--dark); */
+    font-variant: small-caps;
+    background-color:rgba(123, 207, 203, 0.7);
     padding: 5px;
     border-radius: 5px;
     letter-spacing: 3px;
@@ -248,7 +265,7 @@ a {
 .project-links {
     font-size: 85%;
     text-decoration: none;
-    background-color:rgba(123, 207, 203, 0.7);
+    background-color:rgba(183, 187, 187, 0.7);
     padding: 10px;
     border-radius: 5px;
     color: white;
@@ -263,6 +280,9 @@ a {
 .project-desc {
     font-size: 90%;
     text-align: center;
+    background-color:rgba(123, 207, 203, 0.7);
+    padding:15px;
+    border-radius: 5px;
 }
 
 /* Contact Section */
