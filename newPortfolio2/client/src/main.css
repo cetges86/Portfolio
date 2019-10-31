@@ -121,25 +121,6 @@ a {
     z-index:99;
 }
 
-.frost {
-    background: inherit;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.frost::before {
-    content: "";
-    background: inherit;
-    position: absolute;
-    left: -25px;
-    right: -15px;
-    top: -25px;
-    bottom: -4px;
-    box-shadow: inset 0 0 0 3000px rgba(255, 255, 255, 0.35);
-    filter: blur(10px);
-}
-
 #main-banner {
     align-self: end;
     font-size: 3rem;
@@ -188,6 +169,7 @@ a {
 
 .tech-logo {
     max-width: 120px;
+    align-self: center;
 }
 
 /* Portfolio */
@@ -311,13 +293,13 @@ a {
 
 .contact-links {
     text-decoration:none;
-    font-size:1.5rem;
+    font-size:2rem;
     padding:20px;
     border-radius:5px;
     background-color:rgba(123, 207, 203, 0.85);
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (max-width:1300px){
     .contact-links {
         font-size: 1rem;
         letter-spacing: 0;
@@ -361,14 +343,14 @@ a {
         grid-gap:3rem;
     }
 
-    .frost::before {
-        display:none;
-    }
-
     .section-banner, .subheading {
         margin:0;
     }
+}
 
-    
-
+@media screen and (min-width:1600px){
+    .wrapper {
+        max-width: 1600px;
+        margin:auto;
+    }
 }

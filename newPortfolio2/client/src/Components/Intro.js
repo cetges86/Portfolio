@@ -16,9 +16,9 @@ const Intro = () => {
                     Please check out my latest projects in the portfolio section and see what I've built for my clients. Thanks!</p>
             </div>
             <div className="icon-grid">
-                <img className="tech-logo" alt="tech logo" src={react_logo}></img>
                 <img className="tech-logo" alt="tech logo" src={js_logo}></img>
                 <img className="tech-logo" alt="tech logo" src={node_logo}></img>
+                <img className="tech-logo" alt="tech logo" src={react_logo}></img>
                 <img className="tech-logo" alt="tech logo" src={jquery_logo}></img>
                 <img className="tech-logo" alt="tech logo" src={mysql_logo}></img>
                 <img className="tech-logo" alt="tech logo" src={mongodb_logo}></img>

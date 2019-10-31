@@ -71,12 +71,13 @@ class Navbar extends Component {
                         id="myBtn"
                         className="fixed-link"
                         activeClass="active"
+                        to=""
                         onClick={this.toTop}
                         spy={true}
                         smooth={true}
                         offset={0}
                         duration={500}
-                    ><i class="fas fa-chevron-up"></i></Link>
+                    ><i className="fas fa-chevron-up"></i></Link>
                     {/* <a className="links-right" href="#contact">Contact</a> */}
                     <a className="bar-icon" onClick={this.toggleNavMenu}>
                         <i className="fa fa-bars"></i>

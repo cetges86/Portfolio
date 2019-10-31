@@ -11,10 +11,8 @@ import { Link } from "react-scroll";
 const Main = () => {
     return (
         <div className="wrapper">
-            <div className="frost">
-                <Navbar />
-                <Jumbotron />
-            </div>
+            <Navbar />
+            <Jumbotron />
             <Link
                 id="jumbotron-arrow"
                 className="center"
@@ -24,7 +22,7 @@ const Main = () => {
                 smooth={true}
                 offset={0}
                 duration={500}>
-            <i className="fas fa-angle-down"></i>
+                <i className="fas fa-angle-down"></i>
             </Link>
 
             <Intro />

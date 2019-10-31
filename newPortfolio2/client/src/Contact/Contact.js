@@ -18,8 +18,8 @@ const Contact = () => {
             <br /><br />
             <div className="contact-buttons">
                 <div></div>
-                <div><a className="contact-links" href="mailto:c.etges86@gmail.com" rel="noopener noreferrer" target="_blank">{emailIcon} Email</a></div>
-                <div><span className="contact-links">{phoneIcon} Call  303.518.2933</span> </div>
+                <div><a className="contact-links" href="mailto:c.etges86@gmail.com" rel="noopener noreferrer" target="_blank">{emailIcon} Email Me</a></div>
+                <div><span className="contact-links">{phoneIcon} Call Me  303.518.2933</span> </div>
                 <div><a className="contact-links" href={resumeFile} download >{downloadIcon} Resume</a></div>
                 <div></div>
             </div>
