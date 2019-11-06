@@ -40,6 +40,10 @@
     height:3em;
 }
 
+.links-right:hover {
+    cursor: pointer;
+}
+
 .links-right:before {
     content: "";
     position: absolute;
@@ -79,6 +83,14 @@
     padding:7px;
     border-radius: 5px;
 }
+#myBtn {
+    box-shadow:6px 5px 15px rgba(8, 6, 6, 0.8);
+}
+
+#myBtn:hover {
+    cursor: pointer;
+   
+}
 
 @media screen and (max-width:768px) {
     #logo {
@@ -107,6 +119,12 @@
         display: block;
         font-size: 1.6rem;
         margin-left:5.5rem;
+        padding:3px 6px;
+        border-radius: 5px;
+        color:black;
+        background-color:rgba(183, 187, 187, 0.7);
+        box-shadow:5px 5px 10px;
+        
     }
     .navbar-links.responsive {
         position: relative;
